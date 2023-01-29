@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2AC8856298504E600AAEC64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC8855298504E600AAEC64 /* AppDelegate.swift */; };
+		E2AC8858298504E600AAEC64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC8857298504E600AAEC64 /* SceneDelegate.swift */; };
+		E2AC885A298504E600AAEC64 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC8859298504E600AAEC64 /* LoginViewController.swift */; };
+		E2AC885D298504E600AAEC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AC885B298504E600AAEC64 /* Main.storyboard */; };
+		E2AC8860298504E600AAEC64 /* VictoriaSecret.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2AC885E298504E600AAEC64 /* VictoriaSecret.xcdatamodeld */; };
+		E2AC8862298504E700AAEC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AC8861298504E700AAEC64 /* Assets.xcassets */; };
+		E2AC8865298504E700AAEC64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AC8863298504E700AAEC64 /* LaunchScreen.storyboard */; };
+		E2AC886E2985052400AAEC64 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC886D2985052400AAEC64 /* LoginViewModel.swift */; };
+		E2AC88712985108200AAEC64 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88702985108200AAEC64 /* Extensions.swift */; };
+		E2AC88752985130100AAEC64 /* localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88742985130100AAEC64 /* localization.swift */; };
+		E2AC88772985148600AAEC64 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2AC88762985148600AAEC64 /* Localizable.strings */; };
+		E2AC887B2986430E00AAEC64 /* webService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC887A2986430E00AAEC64 /* webService.swift */; };
+		E2AC887E2986436500AAEC64 /* webConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC887D2986436500AAEC64 /* webConstants.swift */; };
+		E2AC8880298643C500AAEC64 /* communicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC887F298643C500AAEC64 /* communicator.swift */; };
+		E2AC8882298643E800AAEC64 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC8881298643E800AAEC64 /* ProductListModel.swift */; };
+		E2AC8884298643F500AAEC64 /* productListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC8883298643F500AAEC64 /* productListViewModel.swift */; };
+		E2AC88862986442A00AAEC64 /* productListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88852986442A00AAEC64 /* productListViewController.swift */; };
+		E2AC88882986491000AAEC64 /* productListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88872986491000AAEC64 /* productListTableViewCell.swift */; };
+		E2AC88912986E48300AAEC64 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88902986E48300AAEC64 /* ProductDetailsViewController.swift */; };
+		E2AC88942986E8DE00AAEC64 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88932986E8DE00AAEC64 /* UserDetailViewController.swift */; };
+		E2AC88962986E9F800AAEC64 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88952986E9F800AAEC64 /* UserModel.swift */; };
+		E2AC88982986EA4D00AAEC64 /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88972986EA4D00AAEC64 /* UserDetailsViewModel.swift */; };
+		E2AC889A2986EA7900AAEC64 /* UserDetailsCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC88992986EA7900AAEC64 /* UserDetailsCommunicator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2AC8852298504E600AAEC64 /* VictoriaSecret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictoriaSecret.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AC8855298504E600AAEC64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2AC8857298504E600AAEC64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2AC8859298504E600AAEC64 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E2AC885C298504E600AAEC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2AC885F298504E600AAEC64 /* VictoriaSecret.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VictoriaSecret.xcdatamodel; sourceTree = "<group>"; };
+		E2AC8861298504E700AAEC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2AC8864298504E700AAEC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2AC8866298504E700AAEC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AC886D2985052400AAEC64 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E2AC88702985108200AAEC64 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E2AC88742985130100AAEC64 /* localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localization.swift; sourceTree = "<group>"; };
+		E2AC88762985148600AAEC64 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E2AC887A2986430E00AAEC64 /* webService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webService.swift; sourceTree = "<group>"; };
+		E2AC887D2986436500AAEC64 /* webConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webConstants.swift; sourceTree = "<group>"; };
+		E2AC887F298643C500AAEC64 /* communicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = communicator.swift; sourceTree = "<group>"; };
+		E2AC8881298643E800AAEC64 /* ProductListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
+		E2AC8883298643F500AAEC64 /* productListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListViewModel.swift; sourceTree = "<group>"; };
+		E2AC88852986442A00AAEC64 /* productListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListViewController.swift; sourceTree = "<group>"; };
+		E2AC88872986491000AAEC64 /* productListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productListTableViewCell.swift; sourceTree = "<group>"; };
+		E2AC88902986E48300AAEC64 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		E2AC88932986E8DE00AAEC64 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		E2AC88952986E9F800AAEC64 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E2AC88972986EA4D00AAEC64 /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
+		E2AC88992986EA7900AAEC64 /* UserDetailsCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsCommunicator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2AC884F298504E600AAEC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2AC8849298504E600AAEC64 = {
+			isa = PBXGroup;
+			children = (
+				E2AC8854298504E600AAEC64 /* VictoriaSecret */,
+				E2AC8853298504E600AAEC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2AC8853298504E600AAEC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC8852298504E600AAEC64 /* VictoriaSecret.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2AC8854298504E600AAEC64 /* VictoriaSecret */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC8879298642F700AAEC64 /* WebService */,
+				E2AC886C298504F000AAEC64 /* Login */,
+				E2AC88782986427800AAEC64 /* ProductList */,
+				E2AC888F2986E46200AAEC64 /* ProductDetails */,
+				E2AC88922986E8C000AAEC64 /* UserDetail */,
+				E2AC886F2985107500AAEC64 /* Utlis */,
+				E2AC8855298504E600AAEC64 /* AppDelegate.swift */,
+				E2AC8857298504E600AAEC64 /* SceneDelegate.swift */,
+				E2AC885B298504E600AAEC64 /* Main.storyboard */,
+				E2AC8861298504E700AAEC64 /* Assets.xcassets */,
+				E2AC8863298504E700AAEC64 /* LaunchScreen.storyboard */,
+				E2AC8866298504E700AAEC64 /* Info.plist */,
+				E2AC885E298504E600AAEC64 /* VictoriaSecret.xcdatamodeld */,
+			);
+			path = VictoriaSecret;
+			sourceTree = "<group>";
+		};
+		E2AC886C298504F000AAEC64 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC8859298504E600AAEC64 /* LoginViewController.swift */,
+				E2AC886D2985052400AAEC64 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E2AC886F2985107500AAEC64 /* Utlis */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC88702985108200AAEC64 /* Extensions.swift */,
+				E2AC88742985130100AAEC64 /* localization.swift */,
+				E2AC88762985148600AAEC64 /* Localizable.strings */,
+			);
+			path = Utlis;
+			sourceTree = "<group>";
+		};
+		E2AC88782986427800AAEC64 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC88892986498E00AAEC64 /* Model */,
+				E2AC888B298649A200AAEC64 /* View */,
+				E2AC888A2986499500AAEC64 /* ViewModel */,
+				E2AC888C298649C500AAEC64 /* Communicator */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		E2AC8879298642F700AAEC64 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC887A2986430E00AAEC64 /* webService.swift */,
+				E2AC887D2986436500AAEC64 /* webConstants.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		E2AC88892986498E00AAEC64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC8881298643E800AAEC64 /* ProductListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2AC888A2986499500AAEC64 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC8883298643F500AAEC64 /* productListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E2AC888B298649A200AAEC64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC88872986491000AAEC64 /* productListTableViewCell.swift */,
+				E2AC88852986442A00AAEC64 /* productListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2AC888C298649C500AAEC64 /* Communicator */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC887F298643C500AAEC64 /* communicator.swift */,
+			);
+			path = Communicator;
+			sourceTree = "<group>";
+		};
+		E2AC888F2986E46200AAEC64 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC88902986E48300AAEC64 /* ProductDetailsViewController.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		E2AC88922986E8C000AAEC64 /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E2AC88932986E8DE00AAEC64 /* UserDetailViewController.swift */,
+				E2AC88952986E9F800AAEC64 /* UserModel.swift */,
+				E2AC88972986EA4D00AAEC64 /* UserDetailsViewModel.swift */,
+				E2AC88992986EA7900AAEC64 /* UserDetailsCommunicator.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2AC8851298504E600AAEC64 /* VictoriaSecret */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AC8869298504E700AAEC64 /* Build configuration list for PBXNativeTarget "VictoriaSecret" */;
+			buildPhases = (
+				E2AC884E298504E600AAEC64 /* Sources */,
+				E2AC884F298504E600AAEC64 /* Frameworks */,
+				E2AC8850298504E600AAEC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VictoriaSecret;
+			productName = VictoriaSecret;
+			productReference = E2AC8852298504E600AAEC64 /* VictoriaSecret.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2AC884A298504E600AAEC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E2AC8851298504E600AAEC64 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E2AC884D298504E600AAEC64 /* Build configuration list for PBXProject "VictoriaSecret" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2AC8849298504E600AAEC64;
+			productRefGroup = E2AC8853298504E600AAEC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2AC8851298504E600AAEC64 /* VictoriaSecret */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2AC8850298504E600AAEC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AC8865298504E700AAEC64 /* LaunchScreen.storyboard in Resources */,
+				E2AC88772985148600AAEC64 /* Localizable.strings in Resources */,
+				E2AC8862298504E700AAEC64 /* Assets.xcassets in Resources */,
+				E2AC885D298504E600AAEC64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2AC884E298504E600AAEC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AC8882298643E800AAEC64 /* ProductListModel.swift in Sources */,
+				E2AC8880298643C500AAEC64 /* communicator.swift in Sources */,
+				E2AC88982986EA4D00AAEC64 /* UserDetailsViewModel.swift in Sources */,
+				E2AC885A298504E600AAEC64 /* LoginViewController.swift in Sources */,
+				E2AC88912986E48300AAEC64 /* ProductDetailsViewController.swift in Sources */,
+				E2AC88882986491000AAEC64 /* productListTableViewCell.swift in Sources */,
+				E2AC8856298504E600AAEC64 /* AppDelegate.swift in Sources */,
+				E2AC887B2986430E00AAEC64 /* webService.swift in Sources */,
+				E2AC88962986E9F800AAEC64 /* UserModel.swift in Sources */,
+				E2AC8860298504E600AAEC64 /* VictoriaSecret.xcdatamodeld in Sources */,
+				E2AC88752985130100AAEC64 /* localization.swift in Sources */,
+				E2AC886E2985052400AAEC64 /* LoginViewModel.swift in Sources */,
+				E2AC88942986E8DE00AAEC64 /* UserDetailViewController.swift in Sources */,
+				E2AC889A2986EA7900AAEC64 /* UserDetailsCommunicator.swift in Sources */,
+				E2AC8858298504E600AAEC64 /* SceneDelegate.swift in Sources */,
+				E2AC88712985108200AAEC64 /* Extensions.swift in Sources */,
+				E2AC88862986442A00AAEC64 /* productListViewController.swift in Sources */,
+				E2AC8884298643F500AAEC64 /* productListViewModel.swift in Sources */,
+				E2AC887E2986436500AAEC64 /* webConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2AC885B298504E600AAEC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AC885C298504E600AAEC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2AC8863298504E700AAEC64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2AC8864298504E700AAEC64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2AC8867298504E700AAEC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2AC8868298504E700AAEC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2AC886A298504E700AAEC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VictoriaSecret/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.str.VictoriaSecret;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2AC886B298504E700AAEC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VictoriaSecret/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.str.VictoriaSecret;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2AC884D298504E600AAEC64 /* Build configuration list for PBXProject "VictoriaSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AC8867298504E700AAEC64 /* Debug */,
+				E2AC8868298504E700AAEC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AC8869298504E700AAEC64 /* Build configuration list for PBXNativeTarget "VictoriaSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AC886A298504E700AAEC64 /* Debug */,
+				E2AC886B298504E700AAEC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2AC885E298504E600AAEC64 /* VictoriaSecret.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2AC885F298504E600AAEC64 /* VictoriaSecret.xcdatamodel */,
+			);
+			currentVersion = E2AC885F298504E600AAEC64 /* VictoriaSecret.xcdatamodel */;
+			path = VictoriaSecret.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2AC884A298504E600AAEC64 /* Project object */;
+}

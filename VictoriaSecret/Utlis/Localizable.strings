@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  VictoriaSecret
+
+  Created by ShreeThaanu on 28/01/23.
+  
+*/
+
+// MARK: - Login
+
+"INVALID_PASSWORD" = "Your password is invalid";
+"INVALID_USERNAME" = "Your Username is invalid";
+"SUCCESS" = "Sucess";
+
